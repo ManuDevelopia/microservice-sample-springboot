@@ -11,4 +11,6 @@ public interface ProjectService {
 
   List<Project> findAll();
 
+  void save(Project project);
+
 }

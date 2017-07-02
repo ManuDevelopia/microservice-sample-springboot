@@ -18,4 +18,9 @@ public class ProjectServiceImp implements ProjectService {
     return projectRepository.findAll();
   }
 
+  @Override
+  public void save(Project project) {
+    projectRepository.save(project);
+  }
+
 }
